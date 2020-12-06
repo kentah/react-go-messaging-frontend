@@ -1,7 +1,7 @@
 import './App.css';
 import React, { useEffect, useState } from 'react'
 import { connect, sendMsg } from './api'
-import Header from './components/Header/Header'
+import Header from './components/Header'
 import ChatHistory from './components/ChatHistory'
 import ChatInput from './components/ChatInput'
 
